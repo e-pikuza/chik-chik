@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chik-chik - Барбершоп</title>
     
@@ -158,7 +158,7 @@
                     <li class="about__item about__item-master">
                         <h3 class="about__item-title">Мастера бород и усов</h3>
 
-                        <p class="about__item-description">Мы заботливо уложим вашу бороду и усы</p>
+                        <p class="about__item-description">Мы заботливо уложим вашу бороду и&nbsp;усы</p>
                     </li>
                     <li class="about__item about__item-guarantee">
                         <h3 class="about__item-title">Гарантия качества</h3>
@@ -342,7 +342,7 @@
             <div class="footer__container">
                 <img class="footer__logo" src="img/logo.svg" alt="Логотип барбершоп Chik-chik">
                 
-                <nav class="footer__navigation navigation">
+                <div class="footer__navigation navigation">
                     <ul class="navigation__list">
                         <li class="navigation__item">
                             <a href="#price" class="navigation__link">Стоимость услуг</a>
@@ -352,15 +352,19 @@
                             <a href="#about" class="navigation__link">О нас</a>
                         </li>
                     </ul>
-                </nav>
+                </div>
 
-                <ul class="footer__authors">
-                    <li class="authors__item">Designer: Anastasia Ilina</li>
-                    <li class="authors__item">Developer: Elena Pikuza</li>
+                <ul class="footer__developers">
+                    <li class="footer__developer">
+                        Designer: <a class="footer__developer-link" href="https://t.me/Mrshmallowww">Anastasia Ilina</a>
+                    </li>
+                    <li class="footer__developer">
+                        Developer: <a class="footer__developer-link" href="https://t.me/elena_pikuza">Elena Pikuza</a>
+                    </li>
                 </ul>
-            </div>
 
-            <p class="footer__copyright">© chik chik, 2023</p>                
+                <p class="footer__copyright">© chik chik, 2023</p> 
+            </div>                           
         </div>
     </footer>
 </body>
