@@ -1,12 +1,4 @@
-'use strict';
-
-const addPreload = (elem) => {
-    elem.classList.add('preload')
-};
-
-const removePreload = (elem) => {
-    elem.classList.remove('preload')
-};
+import { addPreload, removePreload } from "./util.js";
 
 const startSlider = () => {
     const sliderItems = document.querySelectorAll('.slider__item');
@@ -69,7 +61,7 @@ const startSlider = () => {
     });
 };
 
-const initSlider = () => {
+export const initSlider = () => {
     const slider = document.querySelector('.slider');
     const sliderContainer = document.querySelector('.slider__container');
     
@@ -83,8 +75,3 @@ const initSlider = () => {
         startSlider();        
     });    
 };
-
-//window.addEventListener('DOMContentLoaded', initSlider);
-initSlider();
-
-

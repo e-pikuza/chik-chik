@@ -34,6 +34,7 @@
     padding: 0;
     margin: 0 0 62px;
     list-style: none;
+    min-height: 100px;
 }
 
 .price__item {
